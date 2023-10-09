@@ -35,6 +35,6 @@ operation.addEventListener("click",function()
     i++;
     if(i===2)
     {
-        primo[i].checkowner(primo[0].OwnerName,primo[1].OwnerName);
+        primo[0].checkowner(primo[0].OwnerName,primo[1].OwnerName);
     }
 })
